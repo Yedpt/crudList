@@ -1,12 +1,6 @@
 {
   "peliculas": [
     {
-      "title": "Titanic",
-      "year": 1998,
-      "genre": "Dramas",
-      "id": "1"
-    },
-    {
       "id": "2",
       "title": "Jurassic Park",
       "year": 1993,
