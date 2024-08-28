@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('fondo-peliculas.jpg'); Reemplaza con la ruta de tu imagen de fondo */
+   background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Movie Form */
+.movie-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px; /* Añade espacio debajo del formulario */
+}
+
+.movie-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.movie-form button {
+    padding: 10px;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.movie-form button:hover {
+    background-color: #e67e22;
+}
+
+/* Movies List */
+.movies-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.movies-list li {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movies-list button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.movies-list button:first-child {
+    background-color: #e74c3c;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.movies-list button:first-child:hover {
+    background-color: #c0392b;
+}
+
+.movies-list button:last-child {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.movies-list button:last-child:hover {
+    background-color: #2980b9;
+}

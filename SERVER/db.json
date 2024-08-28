@@ -1,18 +1,10 @@
 {
   "peliculas": [
     {
-      "id": "2",
-      "title": "Jurassic Park",
-      "year": 1993,
-      "genre": "Science Fiction",
-      "director": "Steven Spielberg"
-    },
-    {
-      "id": "3",
       "title": "Inception",
-      "year": 2010,
-      "genre": "Thriller",
-      "director": "Christopher Nolan"
+      "year": 2024,
+      "genre": "Thrillerz",
+      "id": "3"
     },
     {
       "id": "4",
@@ -29,18 +21,34 @@
       "director": "The Wachowskis"
     },
     {
-      "id": "6",
-      "title": "Pulp Fiction",
-      "year": 1994,
-      "genre": "Crime",
-      "director": "Quentin Tarantino"
+      "id": "fd5d",
+      "title": "pocoyo",
+      "year": "2000",
+      "genre": "dibujo"
     },
     {
-      "id": "7",
-      "title": "The Shawshank Redemption",
-      "year": 1994,
-      "genre": "Drama",
-      "director": "Frank Darabont"
+      "id": "1c01",
+      "title": "oppenheimer",
+      "year": "2023",
+      "genre": "CI"
+    },
+    {
+      "id": "cf88",
+      "title": "deadpool",
+      "year": "2023",
+      "genre": "ci"
+    },
+    {
+      "id": "2e00",
+      "title": "avengers",
+      "year": "2020",
+      "genre": "ciencia ficcion"
+    },
+    {
+      "title": "intensamente",
+      "year": 2024,
+      "genre": "animacion",
+      "id": "7674"
     }
   ]
 }
