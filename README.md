@@ -3,6 +3,8 @@
 ## Overview
 
 This project is a simple CRUD (Create, Read, Update, Delete) application for managing a list of movies. Users can add, edit, view, and delete movies. It is built using vanilla JavaScript and interacts with a mock REST API for data storage.
+![image](https://github.com/user-attachments/assets/2f45ae37-d3dd-4473-8c2b-6a584b140f37)
+
 
 ## Features
 
