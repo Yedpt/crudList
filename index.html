@@ -10,7 +10,7 @@
 <body>
 
     <div class="container">
-        <h1>Gestion de peliculas</h1>
+        <h1>Gestión de peliculas</h1>
         <!-- Formulario para añadir una nueva película -->
         <form id="add-movie-form" class="movie-form">
             <label for="title">Título:</label>
@@ -25,8 +25,20 @@
             <button type="submit">Añadir Película</button>
         </form>
     
-        <!-- Aquí se listarán las películas -->
-        <ul id="movies-list"></ul>
+         <!-- Aquí se listarán las películas -->
+         <table id="movies-table">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Año</th>
+                    <th>Género</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="movies-list">
+                <!-- Las películas se añadirán aquí dinámicamente -->
+            </tbody>
+        </table>
     </div>
 
     <!-- Archivo JavaScript -->

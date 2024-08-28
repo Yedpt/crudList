@@ -2,8 +2,8 @@
   "peliculas": [
     {
       "title": "Inception",
-      "year": 2024,
-      "genre": "Thrillerz",
+      "year": 2022,
+      "genre": "Thriller",
       "id": "3"
     },
     {
@@ -27,16 +27,16 @@
       "genre": "dibujo"
     },
     {
-      "id": "1c01",
       "title": "oppenheimer",
-      "year": "2023",
-      "genre": "CI"
+      "year": 2023,
+      "genre": "ciencia ficcion",
+      "id": "1c01"
     },
     {
-      "id": "cf88",
       "title": "deadpool",
-      "year": "2023",
-      "genre": "ci"
+      "year": 2023,
+      "genre": "accion",
+      "id": "cf88"
     },
     {
       "id": "2e00",
@@ -49,6 +49,90 @@
       "year": 2024,
       "genre": "animacion",
       "id": "7674"
+    },
+    {
+      "id": 15,
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "genre": "Thriller"
+    },
+    {
+      "id": 16,
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "genre": "Thriller"
+    },
+    {
+      "id": 17,
+      "title": "Gladiator",
+      "year": 2000,
+      "genre": "Acción"
+    },
+    {
+      "id": 18,
+      "title": "The Departed",
+      "year": 2006,
+      "genre": "Crimen"
+    },
+    {
+      "id": 19,
+      "title": "Memento",
+      "year": 2000,
+      "genre": "Thriller"
+    },
+    {
+      "id": 20,
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "genre": "Comedia"
+    },
+    {
+      "id": 21,
+      "title": "Parasite",
+      "year": 2019,
+      "genre": "Thriller"
+    },
+    {
+      "id": 22,
+      "title": "The Revenant",
+      "year": 2015,
+      "genre": "Aventura"
+    },
+    {
+      "id": 23,
+      "title": "Whiplash",
+      "year": 2014,
+      "genre": "Drama"
+    },
+    {
+      "id": 24,
+      "title": "Joker",
+      "year": 2019,
+      "genre": "Drama"
+    },
+    {
+      "title": "GreenBook",
+      "year": 2018,
+      "genre": "comedia dramática",
+      "id": "2f5d"
+    },
+    {
+      "id": "afb5",
+      "title": "Dumbo",
+      "year": "2019",
+      "genre": "animacion"
+    },
+    {
+      "id": "e66d",
+      "title": "Up",
+      "year": "2012",
+      "genre": "animacion"
+    },
+    {
+      "id": "7347",
+      "title": "Toy story",
+      "year": "1995",
+      "genre": "animacion"
     }
   ]
 }

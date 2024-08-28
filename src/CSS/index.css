@@ -1,27 +1,26 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    /* background-image: url('fondo-peliculas.jpg'); Reemplaza con la ruta de tu imagen de fondo */
-   background-color: black;
+    background-color: #fff;
     background-size: cover;
     background-position: center;
     color: #ffffff;
     margin: 0;
-    padding: 0;
-    height: 100vh;
+    padding: 20px 0;  /* Añadido padding para asegurar que haya espacio alrededor del contenido */
+    height: auto;  /* Cambiado de 100vh a auto para que el contenido determine la altura */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Cambiado a flex-start para alinear el contenido al inicio de la página */
 }
 
 /* Container */
 .container {
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    background-color: #f9f7f3; /* Fondo semi-transparente */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 100%;
-    max-width: 600px;
+    max-width: 1000px;
     text-align: center;
 }
 
@@ -29,6 +28,7 @@ body {
 h1 {
     margin-bottom: 20px;
     font-size: 2em;
+    color: #22333b; /* Añadido color para resaltar el título */
 }
 
 /* Movie Form */
@@ -37,17 +37,23 @@ h1 {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 30px; /* Añade espacio debajo del formulario */
+    color: #252525;
+    text-align: center;
 }
 
 .movie-form input {
     padding: 10px;
     border: none;
     border-radius: 4px;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .movie-form button {
     padding: 10px;
-    background-color: #f39c12;
+    background-color: #38b000;
+    margin-left: 31%;
+    width: 40%;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -57,27 +63,40 @@ h1 {
 }
 
 .movie-form button:hover {
-    background-color: #e67e22;
+    background-color: #3e841e;
 }
 
-/* Movies List */
-.movies-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
+/* Movies Table */
+#movies-table {
+    width: 100%;
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+    border-collapse: collapse;
+    margin-top: 20px; /* Espacio entre formulario y tabla */
 }
 
-.movies-list li {
-    background-color: rgba(255, 255, 255, 0.1);
+#movies-table th, #movies-table td {
     padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border: 1px solid #ddd;
+    text-align: left; /* Alineación a la izquierda para mejor presentación */
+    word-wrap: break-word; /* Permite el ajuste de palabras largas */
+    max-width: 200px; /* Establece un ancho máximo para las celdas */
 }
 
-.movies-list button {
+#movies-table th {
+    background-color: #959493;
+    color: white;
+    text-align: center;
+}
+
+#movies-table td {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #252525;
+    overflow-wrap: break-word; /* Asegura que el texto largo se ajuste */
+}
+
+#movies-table button {
+    margin-left: 5%;
     padding: 5px 10px;
     border: none;
     border-radius: 4px;
@@ -86,21 +105,20 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.movies-list button:first-child {
-    background-color: #e74c3c;
-    color: #fff;
-    margin-right: 10px;
-}
-
-.movies-list button:first-child:hover {
-    background-color: #c0392b;
-}
-
-.movies-list button:last-child {
+#movies-table .edit-btn {
     background-color: #3498db;
     color: #fff;
 }
 
-.movies-list button:last-child:hover {
+#movies-table .edit-btn:hover {
     background-color: #2980b9;
+}
+
+#movies-table .delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#movies-table .delete-btn:hover {
+    background-color: #c0392b;
 }
