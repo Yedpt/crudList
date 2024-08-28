@@ -20,28 +20,28 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 - JavaScript (ES6+)
 - [Font Awesome](https://fontawesome.com) for icons
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) for HTTP requests
-- Json-server
+- Node.js Json-server
 
 ## Setup
 
-1. **Clone the repository:**
+1. **Clone the repository: 📂**
 
    ```bash
    git clone https://github.com/Yedpt/crudList.git
 
    
-2. **Navega al directorio del proyecto:**
+2. **Navigate to the project directory:**
 
    ```bash
    cd PRACTICA_CRUD
 
 
-3. **Instala las dependencias:**
+3. **Install the dependencies: 📦**
 
    ```bash
    npm install
 
-4. **Ejecuta la fake db con json-server:**
+4. **Run the fake db with json-server:**
 
    ```bash
    npm run api
